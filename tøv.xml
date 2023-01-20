@@ -1,10 +1,33 @@
-blabla  
+<!DOCTYPE html>
+<html>
+<body>
 
-weojwoejeikjorine
+<h1>W3Schools Internal Note</h1>
+<div>
+<b>To:</b> <span id="to"></span><br>
+<b>From:</b> <span id="from"></span><br>
+<b>Message:</b> <span id="message"></span>
+</div>
 
+<script>
+var txt, parser, xmlDoc;
+txt = "<note>" +
+"<to>Tove</to>" +
+"<from>Jani</from>" +
+"<heading>Reminder</heading>" +
+"<body>Don't forget me this weekend!</body>" +
+"</note>";
 
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt,"text/xml");
 
-her manglet jeg noe 
+document.getElementById("to").innerHTML =
+xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
+document.getElementById("from").innerHTML =
+xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+document.getElementById("message").innerHTML =
+xmlDoc.getElementsByTagName("body")[0].childNodes[0].nodeValue;
+</script>
 
-
-her også!! 
+</body>
+</html>
