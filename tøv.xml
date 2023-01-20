@@ -1355,7 +1355,7 @@
           <AllowedSigner SignerId="ID_SIGNER_S_19F_1_2_1" />
           <AllowedSigner SignerId="ID_SIGNER_S_1A0_1_2_1" />
           <AllowedSigner SignerId="ID_SIGNER_S_1A1_1_2_1" />
-          <AllowedSigner SignerId="ID_SIGNER_S_1A2_1_2_1" />
+          <AllowedSigner SignerId="ID_SIGNER_S_1A2_1_2_1" /> :) 
           <AllowedSigner SignerId="ID_SIGNER_S_1A3_1_2_1" />
           <AllowedSigner SignerId="ID_SIGNER_S_1A4_1_2_1" />
           <AllowedSigner SignerId="ID_SIGNER_S_1A5_1_2_1" />
@@ -2125,11 +2125,11 @@
     <CiSigner SignerId="ID_SIGNER_S_313_1_2_1" />
     <CiSigner SignerId="ID_SIGNER_S_314_1_2_1" />
     <CiSigner SignerId="ID_SIGNER_S_315_1_2_1" />
-    <CiSigner SignerId="ID_SIGNER_S_316_1_2_1" />
+    <CiSigner SignerId="ID_SIGNER_S_33456_1_2_1" />
   </CiSigners>
   <HvciOptions>0</HvciOptions>
   <Settings>
-    <Setting Provider="PolicyInfo" Key="Information" ValueName="Name">
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="ameef">
       <Value>
         <String>SignedAndReputable</String>
       </Value>
